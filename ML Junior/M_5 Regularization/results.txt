@@ -278,3 +278,43 @@ Model name:	Ridge
 Training MSE:   1200301943.12,	Test MSE: 1012834748.18
 Training MAE:        19833.84,	Test MAE: 20133.89
 Training R^2:            0.81,	Test R^2: 0.84
+
+==============================
+2024-10-19 15:34:45.055845
+Reason for the change: Stricter outliers elimination
+==============================
+
+Model name:	LinearRegression
+Training MSE:   1196030932.32,	Test MSE: 1.1599595202947724e+29
+Training MAE:        19863.25,	Test MAE: 19931041414883.79
+Training R^2:            0.81,	Test R^2: -1.8752055496097382e+19
+
+Model name:	Lasso
+Training MSE:   1206965282.96,	Test MSE: 1002085712.31
+Training MAE:        19957.69,	Test MAE: 19888.95
+Training R^2:            0.81,	Test R^2: 0.84
+
+Model name:	Ridge
+Training MSE:   1200301943.12,	Test MSE: 1012834748.18
+Training MAE:        19833.84,	Test MAE: 20133.89
+Training R^2:            0.81,	Test R^2: 0.84
+
+==============================
+2024-10-19 15:36:40.993018
+Reason for the change: True outlier elimination
+==============================
+
+Model name:	LinearRegression
+Training MSE:    639212487.92,	Test MSE: 868603670.29
+Training MAE:        17550.03,	Test MAE: 19984.33
+Training R^2:            0.88,	Test R^2: 0.87
+
+Model name:	Lasso
+Training MSE:    655252288.25,	Test MSE: 842181747.91
+Training MAE:        17695.44,	Test MAE: 19507.49
+Training R^2:            0.88,	Test R^2: 0.87
+
+Model name:	Ridge
+Training MSE:    649955509.71,	Test MSE: 852341905.14
+Training MAE:         17635.4,	Test MAE: 19703.11
+Training R^2:            0.88,	Test R^2: 0.87
