@@ -553,3 +553,53 @@ Model name:	ElasticNet
 Training MSE:     528273091.0,	Test MSE: 625180636.32
 Training MAE:        16348.94,	Test MAE: 17187.09
 Training R^2:            0.87,	Test R^2: 0.88
+
+==============================
+2024-10-21 08:48:16.382594
+Reason for the change: SalePrice to 350
+==============================
+
+Model name:	LinearRegression
+Training MSE:    445967993.36,	Test MSE: 429652377.25
+Training MAE:        15318.98,	Test MAE: 15572.55
+Training R^2:            0.88,	Test R^2: 0.88
+
+Model name:	Lasso
+Training MSE:    461576079.46,	Test MSE: 423905629.15
+Training MAE:        15531.78,	Test MAE: 15542.79
+Training R^2:            0.87,	Test R^2: 0.88
+
+Model name:	Ridge
+Training MSE:    452406724.22,	Test MSE: 425615787.72
+Training MAE:        15437.65,	Test MAE: 15562.99
+Training R^2:            0.88,	Test R^2: 0.88
+
+Model name:	ElasticNet
+Training MSE:    450034472.84,	Test MSE: 424940415.93
+Training MAE:         15396.5,	Test MAE: 15531.59
+Training R^2:            0.88,	Test R^2: 0.88
+
+==============================
+2024-10-21 08:48:58.357236
+Reason for the change: SP to 300
+==============================
+
+Model name:	LinearRegression
+Training MSE:    334287198.28,	Test MSE: 469293678.38
+Training MAE:        13395.13,	Test MAE: 15561.04
+Training R^2:            0.88,	Test R^2: 0.81
+
+Model name:	Lasso
+Training MSE:    347881887.34,	Test MSE: 448766136.52
+Training MAE:         13685.8,	Test MAE: 15343.06
+Training R^2:            0.87,	Test R^2: 0.82
+
+Model name:	Ridge
+Training MSE:     340393843.6,	Test MSE: 443124182.38
+Training MAE:        13584.51,	Test MAE: 15240.13
+Training R^2:            0.88,	Test R^2: 0.82
+
+Model name:	ElasticNet
+Training MSE:    352514749.83,	Test MSE: 449079422.36
+Training MAE:        13817.24,	Test MAE: 15340.28
+Training R^2:            0.87,	Test R^2: 0.82
