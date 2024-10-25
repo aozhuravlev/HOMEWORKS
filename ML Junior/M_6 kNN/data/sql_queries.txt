@@ -1,0 +1,18 @@
+SELECT ID as ID_CLIENT, {}
+from 
+    d_agreement as t1 
+left join 
+    d_clients as t2 on t1.id_client = t2.id
+left join 
+    d_salary as t3 on t2.id = t3.id_client;
+
+SELECT 
+    dl.ID_CLIENT,
+    COUNT(dl.ID_LOAN) AS {},
+    SUM(CASE WHEN dcl.CLOSED_FL = 1 THEN 1 ELSE 0 END) AS {}
+FROM 
+    D_loan dl
+LEFT JOIN 
+    D_close_loan dcl ON dl.ID_LOAN = dcl.ID_LOAN
+GROUP BY 
+    dl.ID_CLIENT;
