@@ -26,7 +26,7 @@ def get_best_threshold(y_val, probs):
         probs_val_classes = (probs[:, 0] < threshold).astype(int)
         precision = round(precision_score(y_val, probs_val_classes), 4)
         recall = round(recall_score(y_val, probs_val_classes), 4)
-        if precision >= 0.15:
+        if precision >= 0.13:
             values.append((threshold, precision, recall))
 
     if values:
