@@ -1,5 +1,6 @@
 import re
 
+
 def car_age(row):
     return 2024 - row["year"]
 
@@ -13,9 +14,9 @@ def owner_age_ratio(row):
 
 
 def torque(row):
-    nm_match = re.search(r'([\d.]+)\s*nm', row.torque.lower())
-    kgm_match = re.search(r'([\d.]+)\s*kgm', row.torque.lower())
-    generic_match = re.search(r'([\d.]+)(?=@|/|\()', row.torque)
+    nm_match = re.search(r"([\d.]+)\s*nm", row.torque.lower())
+    kgm_match = re.search(r"([\d.]+)\s*kgm", row.torque.lower())
+    generic_match = re.search(r"([\d.]+)(?=@|/|\()", row.torque)
     if nm_match:
         return float(nm_match.group(1))
     elif kgm_match:
@@ -58,7 +59,7 @@ def engineer_features(input_df):
     ]
     for function_name in function_list:
         df[function_name] = df.apply(globals()[function_name], axis=1)
-    
+
     print(function_list)
 
     return df
