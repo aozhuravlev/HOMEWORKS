@@ -62,7 +62,7 @@ def get_best_k(X, feat_name):
         if score > best_score:
             best_score = score
             best_k = k
-    print(f"Best score for {feat_name:20}: {best_score}, k = {best_k}")
+    print(f"Best score for {feat_name:6}: {best_score}, k = {best_k}")
     # plt.figure(figsize=(6, 3))
     # plt.plot(k_values, inertia, "-o")
     # plt.xlabel("Number of Clusters (k)")
