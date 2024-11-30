@@ -1,0 +1,115 @@
+==================
+INITIAL RUN
+==================
+
+CatBoostClassifier
+ROC-AUC with Initial CatBoostCl        : 76.64%
+
+CatBoostClassifier
+ROC-AUC with SMOTE                     : 73.17%
+
+CatBoostClassifier
+ROC-AUC with ADASYN                    : 74.54%
+
+CatBoostClassifier
+ROC-AUC with SMOTEENN                  : 74.50%
+
+CatBoostClassifier
+ROC-AUC with SMOTETomek                : 72.86%
+
+XGBClassifier
+ROC-AUC with SMOTE                     : 75.30%
+
+XGBClassifier
+ROC-AUC with ADASYN                    : 76.85%
+
+XGBClassifier
+ROC-AUC with SMOTEENN                  : 74.90%
+
+XGBClassifier
+ROC-AUC with SMOTETomek                : 75.62%
+
+BalancedBaggingClassifier
+ROC-AUC with BalancedBaggingClassifier : 75.44%
+
+EasyEnsembleClassifier
+ROC-AUC with EasyEnsembleClassifier    : 74.59%
+
+ExtraTreesClassifier
+ROC-AUC with ExtraTreesClassifier      : 74.20%
+
+
+==================================
+No imputation, no logarithmisation
+==================================
+
+CatBoostClassifier
+ROC-AUC with SMOTE                     : 64.15%
+
+CatBoostClassifier
+ROC-AUC with ADASYN                    : 65.95%
+
+CatBoostClassifier
+ROC-AUC with SMOTEENN                  : 60.94%
+
+CatBoostClassifier
+ROC-AUC with SMOTETomek                : 67.13%
+
+XGBClassifier
+ROC-AUC with SMOTE                     : 66.32%
+
+XGBClassifier
+ROC-AUC with ADASYN                    : 65.07%
+
+XGBClassifier
+ROC-AUC with SMOTEENN                  : 57.52%
+
+XGBClassifier
+ROC-AUC with SMOTETomek                : 64.11%
+
+BalancedBaggingClassifier
+ROC-AUC with BalancedBaggingClassifier : 62.77%
+
+EasyEnsembleClassifier
+ROC-AUC with EasyEnsembleClassifier    : 61.72%
+
+ExtraTreesClassifier
+ROC-AUC with ExtraTreesClassifier      : 61.07%
+
+
+===================
+no logarithmisation
+===================
+
+CatBoostClassifier
+ROC-AUC with SMOTE                     : 73.37%
+
+CatBoostClassifier
+ROC-AUC with ADASYN                    : 73.01%
+
+CatBoostClassifier
+ROC-AUC with SMOTEENN                  : 69.04%
+
+CatBoostClassifier
+ROC-AUC with SMOTETomek                : 72.81%
+
+XGBClassifier
+ROC-AUC with SMOTE                     : 76.52%
+
+XGBClassifier
+ROC-AUC with ADASYN                    : 76.40%
+
+XGBClassifier
+ROC-AUC with SMOTEENN                  : 69.54%
+
+XGBClassifier
+ROC-AUC with SMOTETomek                : 76.37%
+
+BalancedBaggingClassifier
+ROC-AUC with BalancedBaggingClassifier : 75.32%
+
+EasyEnsembleClassifier
+ROC-AUC with EasyEnsembleClassifier    : 74.26%
+
+ExtraTreesClassifier
+ROC-AUC with ExtraTreesClassifier      : 70.71%
