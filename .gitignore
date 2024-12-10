@@ -1,6 +1,8 @@
 # My tmp-files
 tmp.ipynb
 
+data/
+
 #catboost_info
 catboost_info/
 
