@@ -1,9 +1,9 @@
-FROM python:3.11
+FROM python:3.10
 
 COPY requirements.txt /workdir/
 COPY myapp/ /workdir/myapp/
 COPY static/ /workdir/static/
-COPY emnist-balanced-mapping.txt /workdir/
+COPY data/emnist-balanced-mapping.txt /workdir/
 
 WORKDIR /workdir
 

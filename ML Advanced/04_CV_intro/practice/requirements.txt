@@ -1,4 +1,9 @@
-fastapi==0.109.0
-uvicorn==0.27.0.post1
-numpy
+torchvision
+fastapi
+pandas
 scikit-learn
+numpy
+matplotlib
+tqdm
+seaborn
+scipy
