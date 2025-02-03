@@ -4,6 +4,7 @@ tmp.ipynb
 data/
 wandb/
 lightning_logs/
+gfpgan/
 
 __MACOSX
 
